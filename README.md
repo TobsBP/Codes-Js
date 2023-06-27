@@ -1,1 +1,3 @@
 # Codes-Js
+
+I started to make some codes in Js and i would like to share with you...
