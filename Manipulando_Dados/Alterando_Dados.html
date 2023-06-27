@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            color: black;
+        }
+        h1{
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Exibe como titulo -->
+    <h1>Olá mundo!!</h1>
+
+    <!-- Texto nomal com paragrafo -->
+    <p>Já me livrei da maldição!!</p>
+
+    <script>
+
+        // Exibe uma mensagem flutuante
+        var n1 = parseInt(window.prompt('Digite um número: '))
+        var n2 = parseInt(window.prompt('Digite outro número: '))
+
+        // Soma, parseInt ou parseFloat para converter string para numero
+        var s = n1 + n2
+        window.alert('A soma ' + n1 + ' + ' + n2 + ' é ' + s)
+
+        // Para não ocorrer isso acima usa-se crase `` 
+        window.alert(`A soma ${n1} + ${n2} ficou ${s}`)
+
+        // Para converter para string 
+        window.alert('A soma é ' + String(s))
+
+    </script>
+</body>
+</html>

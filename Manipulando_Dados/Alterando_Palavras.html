@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+
+        // Escreve na pagina // nome.length definie a quantidade de letras na palavra
+        document.write(`Olá, <strong>${nome}</strong> seu nome tem <strong>${nome.length}</strong> letras<br/>`)
+
+        // Deixa o testo em maiúsculo
+        document.write(`Seu nome em maiúsculas fica <strong> ${nome.toUpperCase()}</strong> <br/>`)
+        
+        // Deixa o testo em minúsculo
+        document.write(`Seu nome em minúsculas fica <strong> ${nome.toLocaleLowerCase()} </strong> <br/>`)
+  
+    </script>
+</body>
+</html>

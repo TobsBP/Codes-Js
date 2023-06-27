@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+
+        // Como float pois pode ter numeros quebrados
+        var n1 = parseFloat(window.prompt('Digíte o seu salario: '))
+
+        // Para definir a quantidade de casas após a virgula
+        document.write(`O numero digítado com duas casas fica: ${n1.toFixed(2)} <br/>`)
+
+        // Para exibir como padrão de dinheiro
+        document.write(`O seu salário é: ${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+
+    </script>
+
+</body>
+</html>
